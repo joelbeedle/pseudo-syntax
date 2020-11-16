@@ -1,0 +1,18 @@
+Function sumNumbers(numbers: List): Int
+    result = numbers[0] : Int
+    for i := 1 to numbers.size() do
+        result = result + numbers[i]
+    endforeach
+
+    return result
+
+Procedure print_board(board: BoardType): 
+    foreach row in board do
+        foreach column in board do
+            print(board[row][column])
+        endforeach
+    endforeach
+
+Procedure while_loop():
+    while true:
+        print('ee')
