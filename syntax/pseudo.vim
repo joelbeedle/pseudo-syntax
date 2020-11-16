@@ -12,6 +12,8 @@ syn keyword pseudoBoolean       true false
 syn region  pseudoString        start=+'+ skip=+\\\\\|\\'\|\\$+ excludenl end=+'+ end=+$+ keepend
 syn region  pseudoString        start=+"+ skip=+\\\\\|\\"\|\\$+ excludenl end=+"+ end=+$+ keepend
 
+syn match   pseudoComment       '//.*$' display
+
 syn match   pseudoNumber        '\<\d\>' display
 syn match   pseudoNumber        '\<[1-9][_0-9]*\d\>' display
 syn match   pseudoNumber        '\<\d[jJ]\>' display
