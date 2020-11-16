@@ -1,0 +1,7 @@
+*pseudo-syntax.txt*         Pseudo-Code syntax highlighting         *pseudo-syntax*
+
+===================================================================================
+
+1. FEATURES ~
+
+Full syntax highlighting for multiple forms of pseudocode
