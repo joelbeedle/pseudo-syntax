@@ -25,7 +25,7 @@ hi def link pseudoNumber        Number
 hi def link pseudoFloat         Float
 hi def link pseudoString        String
 hi def link pseudoStatement     Statement
-hi def link pseudoPrint         Keyword
+hi def link pseudoPrint         Type
 hi def link pseudoFunction      Function
 hi def link pseudoConditional   Conditional
 hi def link pseudoRepeat        Repeat
