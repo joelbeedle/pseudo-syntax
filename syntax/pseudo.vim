@@ -35,5 +35,6 @@ hi def link pseudoOperator      Operator
 hi def link pseudoBuiltIn       Type 
 hi def link pseudoString        String
 hi def link pseudoBoolean       Boolean
+hi def link pseudoComment       Comment
 
 let b:current_syntax = 'pseudo'
