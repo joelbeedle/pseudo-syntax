@@ -5,3 +5,6 @@
 1. FEATURES ~
 
 Full syntax highlighting for multiple forms of pseudocode
+Multiple type recognition, such as:
+  - Int, Float, String, Char, Bool, Long, Double
+Multiple different styles of pseudocode included
