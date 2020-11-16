@@ -1,7 +1,7 @@
 if exists('b:current_syntax') | finish | endif
 
 syn keyword pseudoStatement     Function Procedure Class nextgroup=pseudoFunction skipwhite
-syn keyword pseudoStatement     print
+syn keyword pseudoPrint         print
 syn match   pseudoFunction      "[a-zA-z][a-zA-Z0-9_]*" display contained
 syn keyword pseudoConditional   if else endif
 syn keyword pseudoRepeat        for while foreach endfor endwhile endforeach return pass break to
@@ -25,6 +25,7 @@ hi def link pseudoNumber        Number
 hi def link pseudoFloat         Float
 hi def link pseudoString        String
 hi def link pseudoStatement     Statement
+hi def link pseudoPrint         Constant
 hi def link pseudoFunction      Function
 hi def link pseudoConditional   Conditional
 hi def link pseudoRepeat        Repeat
