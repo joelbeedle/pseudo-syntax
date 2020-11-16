@@ -14,7 +14,7 @@ With [Vundle](https://github.com/VundleVim/Vundle.vim)
 Plugin 'joelbeedle/pseudo-syntax'
 ```
 
-With [dein] (https://github.com/Shougo/dein.vim)
+With [dein](https://github.com/Shougo/dein.vim)
 
 ```
 call dein#add('joelbeedle/pseudo-syntax')
