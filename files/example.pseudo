@@ -15,4 +15,5 @@ Procedure print_board(board: BoardType):
 
 Procedure while_loop():
     while true:
-        print('ee')
+        print('Hello, World!')
+    endwhile
