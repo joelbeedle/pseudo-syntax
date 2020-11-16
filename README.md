@@ -20,6 +20,8 @@ With [dein](https://github.com/Shougo/dein.vim)
 call dein#add('joelbeedle/pseudo-syntax')
 ```
 
+Or, stick ``` ftdetect ``` and ```syntax``` folders in your ```~/.vim/``` folder (will not update automatically)
+
 # How to use
 
 Simply follow the install instructions above and start editing any file with the extension .pseudo
