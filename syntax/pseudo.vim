@@ -25,12 +25,12 @@ hi def link pseudoNumber        Number
 hi def link pseudoFloat         Float
 hi def link pseudoString        String
 hi def link pseudoStatement     Statement
-hi def link pseudoPrint         Operator
+hi def link pseudoPrint         Identifier
 hi def link pseudoFunction      Function
 hi def link pseudoConditional   Conditional
 hi def link pseudoRepeat        Repeat
 hi def link pseudoOperator      Operator
-hi def link pseudoBuiltIn       Structure
+hi def link pseudoBuiltIn       Type 
 hi def link pseudoString        String
 hi def link pseudoBoolean       Boolean
 
