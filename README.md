@@ -28,3 +28,8 @@ Simply follow the install instructions above and start editing any file with the
 
 # Example
 ![image](https://github.com/joelbeedle/pseudo-syntax/blob/main/files/screenshot.jpeg)
+
+# TODO
+- Fix float formatting
+- Add more syntax
+- Add more standard functions (such as .length(), .sum())
