@@ -1,3 +1,4 @@
+// Hello, World
 Function sumNumbers(numbers: List): Int
     result = numbers[0] : Int
     for i := 1 to numbers.size() do
