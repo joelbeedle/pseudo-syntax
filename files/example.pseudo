@@ -7,6 +7,9 @@ Function sumNumbers(numbers: List): Int
 
     return result
 
+Function sumNumbersAlternate(numbers: array) : int
+    return sum(numbers)
+
 Procedure print_board(board: BoardType): 
     foreach row in board do
         foreach column in board do
