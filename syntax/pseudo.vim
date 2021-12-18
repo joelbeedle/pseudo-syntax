@@ -5,7 +5,7 @@ syn keyword pseudoPrint         print
 syn match   pseudoFunction      "[a-zA-z][a-zA-Z0-9_]*" display contained
 syn keyword pseudoFunction      add sum length append remove pop size insert indexOf let
 syn keyword pseudoConditional   if else endif
-syn keyword pseudoRepeat        for while foreach endfor endwhile endforeach return pass break each
+syn keyword pseudoRepeat        for to while foreach endfor endwhile endforeach return pass break each
 syn keyword pseudoOperator      and in is not or do then to
 syn keyword pseudoBuiltIn       String List Int Float Double Array Long string float int list double array arraylist, ArrayList, dictionary, Dictionary, dict
 syn keyword pseudoBoolean       true false True False
