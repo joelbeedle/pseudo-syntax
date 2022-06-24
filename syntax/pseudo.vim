@@ -1,14 +1,14 @@
 if exists('b:current_syntax') | finish | endif
 
 syn keyword pseudoStatement     Function Procedure Class function func procedure class error nextgroup=pseudoFunction skipwhite
-syn keyword pseudoPrint         print
+syn keyword pseudoPrint         print Print
 syn match   pseudoFunction      "[a-zA-z][a-zA-Z0-9_]*" display contained
 syn keyword pseudoFunction      add sum length append remove pop size insert indexOf let
-syn keyword pseudoConditional   if else endif
-syn keyword pseudoRepeat        for to while foreach endfor endwhile endforeach return pass break each
+syn keyword pseudoConditional   if else endif elif
+syn keyword pseudoRepeat        for to while foreach endfor endwhile endforeach return pass break each try catch
 syn keyword pseudoOperator      and in is not or do then to
-syn keyword pseudoBuiltIn       String List Int Float Double Array Long string float int list double array arraylist, ArrayList, dictionary, Dictionary, dict
-syn keyword pseudoBoolean       true false True False
+syn keyword pseudoBuiltIn       String List Int Float Double Array Long Dictionary Dict ArrayList string list int float double array long dictionary dict arraylist 
+syn keyword pseudoBoolean       True False true false
 
 syn region  pseudoString        start=+'+ skip=+\\\\\|\\'\|\\$+ excludenl end=+'+ end=+$+ keepend
 syn region  pseudoString        start=+"+ skip=+\\\\\|\\"\|\\$+ excludenl end=+"+ end=+$+ keepend
